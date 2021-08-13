@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+footer {
+  background-color:#3c3744;
+  height:100px;
+}
+
+footer p {
+  margin-left: 275px;
+  text-align: center;
+  color:#FBFFF1;
+
+}
+
+
+.logoHeader {
+    display: flex;
+    justify-content:center;
+    margin-left: 275px;
+    background-color: #FBFFF1;
+}
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3d52d5;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #b4c5e4;
+    color: black;
+}
+
+/* Style the content */
+.content {
+    margin-left: 200px;
+    padding-left: 20px;
+}
