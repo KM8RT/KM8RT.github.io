@@ -17,6 +17,14 @@ footer p {
   color:#FBFFF1;
 }
 
+form {
+  margin-left: 210px;
+}
+
+textarea {
+  display:block;
+  width:80%
+}
 
 .logoHeader {
     display: flex;
