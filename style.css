@@ -26,11 +26,6 @@ textarea {
   width:80%
 }
 
-.DomNChels {
-  display: block;
-  margin: auto;
-}
-
 .logoHeader {
     display: flex;
     justify-content:center;
@@ -68,4 +63,13 @@ textarea {
 .content {
     margin-left: 200px;
     padding-left: 20px;
+}
+
+.DomNChels {
+  display: block;
+  margin: auto;
+}
+
+.phototypes {
+  text-align: center;
 }
