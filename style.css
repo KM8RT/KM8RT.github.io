@@ -26,8 +26,9 @@ textarea {
   width:80%
 }
 
-img {
-display: block;
+.DomNChels {
+  display: block;
+  margin: auto;
 }
 
 .logoHeader {
