@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <title>Illustrations</title>
   </head>
   <body style="background-color:#FBFFF1">
@@ -20,20 +22,29 @@
       <h1>Illustrations</h1>
         <div>
             <h2 class="phototypes">Book Covers</h2>
-              <img src="./assets/bookDesign.jpg" width="700" alt="Wishtree Cover 1">
+            <div data-aos="flip-right">
+              <img class="DesignPics" src="./assets/bookDesign.jpg" width="700" alt="Wishtree Cover 1">
+            </div>
               <br/>
               <br/>
               <br/>
-              <img src="./assets/bookDesign1.jpg" width="700" alt="Wishtree Cover 2">
+              <div data-aos="flip-right">
+              <img class="DesignPics" src="./assets/bookDesign1.jpg" width="700" alt="Wishtree Cover 2">
+            </div>
             <br/>
             <br/>
             <h2 class="phototypes">Icon Design</h2>
-              <img src="./assets/IconDesign.jpg" width="600" alt="Social Media Icons">
+            <div data-aos="flip-down">
+              <img class="DesignPics" src="./assets/IconDesign.jpg" width="600" alt="Social Media Icons">
+            </div>
         </div>
     </div>
     <footer>
       <p> &copy KM Designs by Kevin Martinez</p>
     </footer>
 
+    <script>
+    AOS.init();
+    </script>
   </body>
 </html>

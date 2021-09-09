@@ -66,6 +66,18 @@ img {
     float: none;
     width: 100%;
   }
+  .DomNChels {
+    width:100%;
+  }
+  .EggRollPic {
+    width:100%;
+  }
+  .WorldFamous {
+    width:50%;
+  }
+  .DesignPics {
+    width:100%;
+  }
 }
 
 /* Style the content */
@@ -99,7 +111,8 @@ img {
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  padding: 5px;
+  width:100%;
   text-align: center;
   align-content: center;
 }
