@@ -17,10 +17,6 @@ footer p {
   color:#FBFFF1;
 }
 
-form {
-  margin-left: 210px;
-}
-
 textarea {
   display:block;
   width:80%
@@ -31,31 +27,28 @@ img {
   margin: auto;
 }
 
+
 .logoHeader {
     display: flex;
     justify-content:center;
-    margin-left: 275px;
     background-color: #FBFFF1;
 }
 /* Style the side navigation */
 .sidenav {
-    height: 100%;
-    width: 200px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
     background-color: #3d52d5;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 
 /* Side navigation links */
 .sidenav a {
+    float:left;
     color: white;
     padding: 16px;
-    text-decoration: none;
+    text-align:center;
     display: block;
+    padding:14px 16px;
+    text-decoration: none;
 }
 
 /* Change color on hover */
@@ -64,9 +57,16 @@ img {
     color: black;
 }
 
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .sidenav a {
+    float: none;
+    width: 100%;
+  }
+}
+
 /* Style the content */
 .content {
-    margin-left: 200px;
     padding-left: 20px;
 }
 
@@ -103,4 +103,9 @@ img {
 
 .EggRoll {
   text-align: center;
+}
+
+.EggRoll a {
+  text-align:center;
+  color: black;
 }
